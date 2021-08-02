@@ -1,4 +1,53 @@
+
 body{
-background-color: rgb(112, 112, 204);
+    font-family:  'Lato', sans-serif;
+}
+.hero{
+    background: linear-gradient(90deg, rgba(204, 19, 142, 0.9), rgba(223, 41, 41, 0.7)), url(photos/laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 20px;
+    color: whitesmoke;
+}
+
+.hero p{
+ font-size: 36px;
+ 
+}
+.contact-link {
+    display: inline-block;
+padding: 20px 50px;
 color: whitesmoke;
+border: whitesmoke 1px solid ;
+background-color: rgb(47, 136, 163);
+font-size: 20px;
+transition: all 150ms ease-in-out;
+}
+.contact-link:hover{
+    color: rgb(204, 19, 142);
+  
+   
+}
+h1,h2{
+    font-family: 'Old Standard TT', serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 96px;
+}
+h2{
+font-size: 24px;
+opacity: 0.9;
+}
+@media (max-width:576px){
+    h1{
+        font-size: 46px;
+        line-height: 1.5;
+    }
+    .hero p{
+        font-size: 20px;
+      
+    }
 }
