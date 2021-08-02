@@ -8,7 +8,7 @@ body{
     background-size: cover;
     height: 100vh;
     width: 100%;
-    padding: 100px 20px;
+    padding: 150px 20px;
     color: whitesmoke;
 }
 
@@ -21,7 +21,7 @@ body{
 padding: 20px 50px;
 color: whitesmoke;
 border: whitesmoke 1px solid ;
-background-color: rgb(47, 136, 163);
+background-color: rgb(55, 138, 163);
 font-size: 20px;
 transition: all 150ms ease-in-out;
 }
@@ -41,13 +41,39 @@ h2{
 font-size: 24px;
 opacity: 0.9;
 }
-@media (max-width:576px){
+.project-link{
+    display: inline-block;
+    padding: 15px 20px;
+    color: whitesmoke;
+    border: whitesmoke 1px solid ;
+    background-color: rgb(47, 136, 163);
+    font-size: 18px;
+    transition: all 150ms ease-in-out;
+}
+.project-link:hover{
+    color: white;
+    background-color: rgb(71, 168, 197);
+}
+.col > h2{
+    font-size: 46px;
+    font-weight: bold;
+}
+.col > p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+@media (max-width:768px){
     h1{
         font-size: 46px;
         line-height: 1.5;
     }
+    
     .hero p{
         font-size: 20px;
       
+    }
+    .project-desc{
+        text-align: center;
     }
 }
