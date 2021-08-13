@@ -29,7 +29,7 @@ transition: all 150ms ease-in-out;
     background-color: rgb(71, 168, 197);
     color: whitesmoke;
 }
-h1,h2{
+h1,h2,h3{
     font-family: 'Old Standard TT', serif;
 }
 h1{
