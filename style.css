@@ -8,7 +8,7 @@ body{
     background-size: cover;
     height: 100vh;
     width: 100%;
-    padding: 150px 20px;
+    padding: 100px 20px;
     color: whitesmoke;
 }
 
@@ -70,6 +70,7 @@ opacity: 0.9;
     font-size: 18px;
 }
 .content-wrapper{
+    padding: 60px 0;
     height: 100%;
     color: whitesmoke;
     background-color: rgb(43, 59, 109);
@@ -77,6 +78,7 @@ opacity: 0.9;
 .content-wrapper h1{
     font-size: 46px;
     color: rgb(71, 168, 197);
+
 }
 .about-article > p{
     font-size: 20px;
@@ -88,10 +90,9 @@ opacity: 0.9;
     text-align: center;
 }
 
-
-@media (max-width:768px){
+@media (max-width:900px){
     h1{
-        font-size: 60px;
+        font-size: 65px;
         line-height: 1.2;
     }
     
