@@ -43,7 +43,10 @@ opacity: 0.9;
 #index-paragraph{
     font-size: 46px;
     font-family: 'Old Standard TT', serif;
-    
+}
+#brand-name{
+    font-family: 'Old Standard TT', serif;
+    font-size: 40px;
 }
 .project-link{
     display: inline-block;
@@ -69,7 +72,7 @@ opacity: 0.9;
 .content-wrapper{
     height: 100%;
     color: whitesmoke;
-    background-color: rgba(12, 17, 32, 0.9);
+    background-color: rgb(43, 59, 109);
 }
 .content-wrapper h1{
     font-size: 46px;
@@ -84,6 +87,7 @@ opacity: 0.9;
 .content{
     text-align: center;
 }
+
 
 @media (max-width:768px){
     h1{
@@ -103,6 +107,9 @@ opacity: 0.9;
     }
     .content{
         text-align: center;
+    }
+    #brand-name{
+        font-size: 28px;
     }
     
 }
