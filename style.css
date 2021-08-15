@@ -78,7 +78,7 @@ opacity: 0.9;
 
 }
 .content-wrapper h1{
-    font-size: 56px;
+    font-size: 46px;
     color: whitesmoke;
 }
 
@@ -139,7 +139,7 @@ color: rgb(71, 168, 197);
 
 
 @media (max-width:900px){
-    h1{
+    .hero h1{
         font-size: 65px;
         line-height: 1.2;
     }
