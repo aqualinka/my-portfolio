@@ -29,7 +29,7 @@ transition: all 150ms ease-in-out;
     background-color: rgb(71, 168, 197);
     color: whitesmoke;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
     font-family: 'Old Standard TT', serif;
 }
 h1{
@@ -40,6 +40,7 @@ h2{
 font-size: 24px;
 opacity: 0.9;
 }
+
 #index-paragraph{
     font-size: 46px;
     font-family: 'Old Standard TT', serif;
@@ -73,12 +74,12 @@ opacity: 0.9;
     padding: 60px 0;
     height: 100%;
     color: whitesmoke;
-    background-color: rgb(43, 59, 109);
+    background: linear-gradient(90deg, rgba(43, 59, 109, 0.9), rgba(150, 11, 150, 0.7));
+
 }
 .content-wrapper h1{
-    font-size: 46px;
+    font-size: 56px;
     color: whitesmoke;
-
 }
 
 .about-article  p{
@@ -86,11 +87,55 @@ opacity: 0.9;
     padding: 15px;
 }
 .about-profile-pic img{
-    filter: grayscale(50%);
+    filter: grayscale(25%);
 }
-.content{
+
+.content a{
+color: inherit;
+text-decoration: none;
+font-size: 20px;
+}
+footer{
+    background-color: #212529;
+    color: whitesmoke;
+    padding:  0 0 40px;
+}
+ .contact-box{
+     color: whitesmoke;
+     background:linear-gradient(90deg, rgba(43, 59, 109, 0.9), rgba(150, 11, 150, 0.7)) ;
+    padding: 50px 100px;
+}
+ .contact-box  h4{
+        font-size: 36px;    
+}
+ .contact-box p{
+    font-size: 26px;
+    opacity: 0.7;
+}
+footer .mail a{
+    font-size: 26px;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+footer .mail a:hover{
+text-decoration: underline;
+}
+footer .media-links{
     text-align: center;
+  
 }
+footer .media-links a {
+    color: unset;
+    padding: 0 10px;
+    font-size: 24px;
+
+}
+footer .media-links a:hover {
+color: rgb(71, 168, 197);
+ cursor: pointer;
+}
+
 
 
 @media (max-width:900px){
