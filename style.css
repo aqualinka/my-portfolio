@@ -52,10 +52,10 @@ opacity: 0.9;
     font-size: 40px;
 }
 .project-link{
+    text-decoration: none !important;
     display: inline-block;
     padding: 15px 20px;
     color: whitesmoke;
-   
     background-color: rgb(47, 136, 163);
     font-size: 18px;
     transition: all 150ms ease-in-out;
@@ -73,7 +73,7 @@ opacity: 0.9;
     font-size: 18px;
 }
 .content-wrapper{
-    padding: 60px 0;
+    padding: 80px 0;
     height: 100%;
     color: whitesmoke;
     background: linear-gradient(90deg, rgba(43, 59, 109, 0.9), rgba(150, 11, 150, 0.7));
@@ -153,10 +153,17 @@ footer .media-links a:hover {
 color: rgb(71, 168, 197);
 
 }
+@media (max-width:992px) {
+ .content {
+     text-align: center;
+ }
+ .project-desc{
+    text-align: center;
+}
+}
 
 
-
-@media (max-width:900px){
+@media (max-width:768px){
     .hero h1{
         font-size: 65px;
         line-height: 1.2;
@@ -166,14 +173,12 @@ color: rgb(71, 168, 197);
         font-size: 20px;
       
     }
-    .project-desc{
-        text-align: center;
-    }
+    
     .about-article{
         text-align: center;
     }
-    .content{
-        text-align: center;
+    #index-paragraph{
+        font-size: 34px;
     }
     #brand-name{
         font-size: 28px;
