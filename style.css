@@ -42,6 +42,8 @@ opacity: 0.9;
 }
 
 #index-paragraph{
+    text-align: center;
+    margin: 100px 0;
     font-size: 46px;
     font-family: 'Old Standard TT', serif;
 }
