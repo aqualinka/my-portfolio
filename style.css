@@ -95,6 +95,9 @@ color: inherit;
 text-decoration: none;
 font-size: 20px;
 }
+.content a:hover{
+    text-decoration: underline;
+}
 footer{
     background-color: #212529;
     color: whitesmoke;
@@ -123,10 +126,12 @@ text-decoration: underline;
 }
 footer .media-links{
     text-align: center;
+   
   
 }
 footer .media-links a {
     color: unset;
+    text-decoration: none;
     padding: 0 10px;
     font-size: 24px;
 
