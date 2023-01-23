@@ -3,7 +3,7 @@ body{
     font-family:  'Lato', sans-serif;
 }
 .hero{
-    background: linear-gradient(90deg, rgba(43, 59, 109, 0.9), rgba(150, 11, 150, 0.7)), url(photos/laptop.jpg);
+    background: linear-gradient(90deg, rgba(43, 59, 109, 0.9), rgba(150, 11, 150, 0.7)), url("photos/laptop.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
