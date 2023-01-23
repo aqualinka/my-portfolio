@@ -91,9 +91,10 @@ opacity: 0.9;
 .about-profile-pic img{
     filter: grayscale(25%);
 }
+
 .tech i{
-    padding: 5px;
-    font-size: 20px;
+    margin: 20px;
+    font-size: 50px;
 }
 .content a{
 color: inherit;
